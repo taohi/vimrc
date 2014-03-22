@@ -99,8 +99,8 @@
 " Keymapping
     "stop highlight display
     nmap <F4>  :nohl<CR>
-    nmap <F8>  :tabp<CR> 
-    nmap <F9>  :tabn<CR>
+    nmap <F11>  :tabp<CR> 
+    nmap <F12>  :tabn<CR>
     nmap <F7>  g~iw
     nmap <F3>  :w<CR>
 " 
