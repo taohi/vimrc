@@ -24,7 +24,7 @@
     set encoding=utf8                " Set utf8 as standard encoding
     set fileformat=unix              " Set unix as the default format
     set ffs=unix,dos,mac             " Use Unix as the standard file type
-    set autochdir                    " Automatically change working dir
+"    set autochdir                    " Automatically change working dir
     set noic
 " General 
 
