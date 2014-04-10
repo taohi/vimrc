@@ -103,6 +103,13 @@
     nmap <F9>  :tabn<CR>
     nmap <F7>  g~iw
     nmap <F3>  :w<CR>
+    imap () ()<left>
+    imap {} {}<left>
+    imap [] []<left>
+    inoremap <C-h> <left>
+    inoremap <C-l> <right>
+    inoremap <C-j> <down>
+    inoremap <C-k> <up>
 " 
 
 " plugins
