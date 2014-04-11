@@ -109,6 +109,10 @@ call pathogen#infect()
     noremap <Leader>l :set cursorline<CR>
     noremap <Leader>L :set nocursorline<CR>
     noremap <Leader>n :nohl<CR> 
+    noremap <C-h> <C-w>h
+    noremap <C-j> <C-w>j
+    noremap <C-k> <C-w>k
+    noremap <C-l> <C-w>l
     nmap <F8> :tabp<CR>
     nmap <F9> :tabn<CR>
     noremap 4 $
