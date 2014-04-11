@@ -19,6 +19,7 @@ call pathogen#infect()
 """
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 """ General 
+    let mapleader=","
     set nocompatible
     set pastetoggle=<F2>
     set clipboard=unnamed
@@ -96,11 +97,6 @@ call pathogen#infect()
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 """ Keymapping
-    nmap <F4>  :nohl<CR>
-    nmap <F8>  :tabp<CR>
-    nmap <F9>  :tabn<CR>
-    nmap <F7>  g~iw
-    nmap <F3>  :w<CR>
     imap () ()<left>
     imap "" ""<left>
     imap '' ''<left>
@@ -110,6 +106,13 @@ call pathogen#infect()
     inoremap <C-l> <right>
     inoremap <C-j> <down>
     inoremap <C-k> <up>
+    noremap <Leader>l :set cursorline<CR>
+    noremap <Leader>L :set nocursorline<CR>
+    noremap <Leader>n :nohl<CR> 
+    nmap <F8> :tabp<CR>
+    nmap <F9> :tabn<CR>
+    noremap 4 $
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 """ plugins
 
