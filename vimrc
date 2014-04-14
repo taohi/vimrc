@@ -116,6 +116,7 @@ call pathogen#infect()
     nmap <F8> :tabp<CR>
     nmap <F9> :tabn<CR>
     noremap 4 $
+    noremap 6 ^
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 """ plugins
