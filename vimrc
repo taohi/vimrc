@@ -108,7 +108,11 @@ call pathogen#infect()
     inoremap <C-k> <up>
     noremap <Leader>l :set cursorline<CR>
     noremap <Leader>L :set nocursorline<CR>
+    noremap <Leader>s :set laststatus=1<CR>
+    noremap <Leader>S :set laststatus=2<CR>
     noremap <Leader>n :nohl<CR> 
+    noremap <Leader>f :set fdm=indent<CR> 
+    noremap <Leader>F :set fdm=manual<CR> 
     noremap <C-h> <C-w>h
     noremap <C-j> <C-w>j
     noremap <C-k> <C-w>k
@@ -129,5 +133,9 @@ set wildignore+=*.pyc
 set wildignore+=*_build/*
 set wildignore+=*/coverage/*
 
-"""plugin2:
+"""plugin2:python autocomplete: jedi.vim
+"""cd ~/.vim/bundle
+"""git clone https://github.com/davidhalter/jedi.git
+"""git submodule update --init
+let g:jedi#completions_command = "<C-N>"
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
