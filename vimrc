@@ -138,4 +138,5 @@ set wildignore+=*/coverage/*
 """git clone https://github.com/davidhalter/jedi.git
 """git submodule update --init
 let g:jedi#completions_command = "<C-N>"
+let g:jedi#goto_definitions_command = "<C-]>"
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
