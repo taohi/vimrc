@@ -133,8 +133,8 @@ set wildignore+=*/coverage/*
 
 """plugin2:python autocomplete: jedi.vim
 """cd ~/.vim/bundle
-"""git clone https://github.com/davidhalter/jedi.git
+"""git clone --recursive https://github.com/davidhalter/jedi-vim.git
 """git submodule update --init
-let g:jedi#completions_command = "<C-N>"
+let g:jedi#completions_command = "<C-P>"
 let g:jedi#goto_definitions_command = "<C-]>"
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
