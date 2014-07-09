@@ -1,7 +1,7 @@
 """ Maintainer:whatcanyou.Thanks for Doctor Janzhou@janzhou.org
 """Pre-To-Do-Step:Use pathogen to manage vim plugins.
-"""mkdir -p ~/.vim/autoload ~/.vim/bundle
 """git clone THIS_VIMRC_GITHUB_URL ~/.vim
+"""mkdir -p ~/.vim/autoload ~/.vim/bundle
 """ln -s ~/.vim/vimrc ~/.vimrc
 """cd ~/.vim/autoload
 """git clone git@github.com:tpope/vim-pathogen.git pathogen.vim
