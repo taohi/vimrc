@@ -4,8 +4,8 @@
 """git clone THIS_VIMRC_GITHUB_URL ~/.vim
 """ln -s ~/.vim/vimrc ~/.vimrc
 """cd ~/.vim/autoload
-"""git clone https://raw.github.com/tpope/vim-pathogen/HEAD/autoload/pathogen.vim
-call pathogen#infect()
+"""git clone git@github.com:tpope/vim-pathogen.git pathogen.vim
+execute pathogen#infect()
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 """content Index:
