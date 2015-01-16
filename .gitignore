@@ -1,6 +1,5 @@
 autoload
 bundle
 .netrwhist
-*
 !vimrc
 !README.md
