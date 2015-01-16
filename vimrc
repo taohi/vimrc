@@ -1,4 +1,4 @@
-""" Maintainer:taohi@taohi.net.Thanks for Doctor Janzhou@janzhou.org
+"""maintainer:taohi. email:taohi[at]taohi.net
 
 """Pre-To-Do-Step:Use pathogen to manage vim plugins.
 """git clone THIS_VIMRC_GITHUB_URL ~/.vim
@@ -24,7 +24,7 @@ execute pathogen#infect()
     set nocompatible
     set pastetoggle=<F2>
     set clipboard=unnamed
-    set history=1000                 " Number of history
+    set history=700                 " Number of history
     filetype plugin on               " Enable filetype plugins
     filetype indent on               " Automatically detect file types.
 
@@ -98,11 +98,12 @@ execute pathogen#infect()
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 """ Keymapping
-    imap () ()<left>
-    imap "" ""<left>
-    imap '' ''<left>
-    imap [] []<left>
-    imap {} {}<left><CR><up><right><CR>
+    inoremap  () ()<left>
+    inoremap  <> <><left>
+    inoremap  "" ""<left>
+    inoremap  '' ''<left>
+    inoremap  [] []<left>
+    inoremap  {} {}<left><CR><up><right><CR>
     inoremap <C-h> <left>
     inoremap <C-l> <right>
     inoremap <C-j> <down>
@@ -114,13 +115,20 @@ execute pathogen#infect()
     noremap <Leader>n :nohl<CR> 
     noremap <Leader>f :set fdm=indent<CR> 
     noremap <Leader>F :set fdm=manual<CR> 
+    "move between windows.
     noremap <C-h> <C-w>h
     noremap <C-j> <C-w>j
     noremap <C-k> <C-w>k
     noremap <C-l> <C-w>l
+    "tabnext and tabprevious
     nmap <F8> :tabp<CR>
     nmap <F9> :tabn<CR>
-
+    " quick-save
+    inoremap <F3> <Esc>:w<CR>a
+    vnoremap <F3> <Esc>:w<CR>
+    noremap  <F3> <Esc>:w<CR>
+    " quick-leave with save
+    
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 """ plugins
 
