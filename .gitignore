@@ -1,7 +1,6 @@
-autoload/
-bundle/
+autoload
+bundle
 .netrwhist
-.gitignore
 *
 !vimrc
 !README.md
