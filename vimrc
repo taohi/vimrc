@@ -1,4 +1,6 @@
-"" Maintainer:taohi.Thanks for Doctor Janzhou
+
+"""maintainer:taohi. email:taohi[at]taohi.net
+
 """Pre-To-Do-Step:Use pathogen to manage vim plugins.
 """mkdir -p ~/.vim/autoload ~/.vim/bundle
 """git clone THIS_VIMRC_GITHUB_URL ~/.vim
