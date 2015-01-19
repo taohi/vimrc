@@ -146,4 +146,10 @@ set wildignore+=*/coverage/*
 """git submodule update --init
 let g:jedi#completions_command = "<C-P>"
 let g:jedi#goto_definitions_command = "<C-]>"
+
+"""plugin3:vim-markdown
+"""cd ~/.vim/bundle
+"""git clone https://github.com/plasticboy/vim-markdown.git
+let g:vim_markdown_folding_disabled=1
+let g:vim_markdown_frontmatter=1
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
