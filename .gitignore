@@ -1,5 +1,6 @@
 autoload
 bundle
 .netrwhist
+.VimballRecord
 !vimrc
 !README.md
