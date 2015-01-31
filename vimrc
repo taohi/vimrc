@@ -1,6 +1,6 @@
 """maintainer:taohi. email:taohi[at]taohi.net
 
-"""Pre-To-Do-Step:Use pathogen to manage vim plugins.
+"""Pre-To-Do-Step:Use pathogen.vim to manage vim plugins.
 """git clone THIS_VIMRC_GITHUB_URL ~/.vim
 """mkdir -p ~/.vim/autoload ~/.vim/bundle
 """ln -s ~/.vim/vimrc ~/.vimrc
@@ -127,7 +127,6 @@ execute pathogen#infect()
     inoremap <F3> <Esc>:w<CR>a
     vnoremap <F3> <Esc>:w<CR>
     noremap  <F3> <Esc>:w<CR>
-    " quick-leave with save
     
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 """ plugins
@@ -152,4 +151,12 @@ let g:jedi#goto_definitions_command = "<C-]>"
 """git clone https://github.com/plasticboy/vim-markdown.git
 let g:vim_markdown_folding_disabled=1
 let g:vim_markdown_frontmatter=1
+
+"""plugin4:clang_complete
+"""cd ~/.vim/plugin
+"""git clone git@github.com:Rip-Rip/clang_complete.git
+"""cd clang_complete
+"""make install
+"""sudo ln -s /usr/lib/i386-linux-gnu/libclang-3.4.so.1 /usr/lib/i386-linux-gnu/libclang.so
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
