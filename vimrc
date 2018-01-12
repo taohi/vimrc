@@ -4,8 +4,7 @@
 """git clone THIS_VIMRC_GITHUB_URL ~/.vim
 """mkdir -p ~/.vim/autoload ~/.vim/bundle
 """ln -s ~/.vim/vimrc ~/.vimrc
-"""cd ~/.vim/autoload
-"""git clone git@github.com:tpope/vim-pathogen.git pathogen.vim
+"""curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 execute pathogen#infect()
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
@@ -72,6 +71,7 @@ execute pathogen#infect()
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 """ Colors and Fonts 
     syntax enable                   " Enable syntax highlighting
+    syntax on
     colo ron
     set t_Co=256
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
