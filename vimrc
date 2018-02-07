@@ -71,7 +71,6 @@ execute pathogen#infect()
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 """ Colors and Fonts 
     syntax enable                   " Enable syntax highlighting
-    syntax on
     colo ron
     set t_Co=256
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
